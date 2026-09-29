@@ -8,4 +8,8 @@ pacman::p_load(
 # importing the data
 alzheimer_data <- import(here("data", "alzheimers_data_clean.csv"))
 
+# Vizualize the data
 head(alzheimer_data)
+
+# next explore the dimensions of the data
+skim(alzheimer_data)
